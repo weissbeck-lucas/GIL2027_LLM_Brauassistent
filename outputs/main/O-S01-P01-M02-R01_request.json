@@ -1,0 +1,12 @@
+{
+  "input": "Ein kleines Brau-KMU bzw. Getraenkestartup moechte ein neues Bier durch einen externen Lohnbrauer produzieren lassen. Erstelle einen produktionsnahen Bierrezeptentwurf als Grundlage fuer die fachliche Abstimmung mit dem Produktionspartner.\n\nSzenario: S01\nBierstil: Pils\nAusschlagmenge: 1.000 Liter\nZiel-Stammwuerze: 11,3 Grad Plato\nZiel-Alkoholgehalt: 4,8 % vol.\nZiel-Bittere: 38 IBU\nZiel-Farbe: 6-8 EBC\nZielcharakter: hell, klar, schlank, trocken und sauber vergoren, mit deutlicher Hopfenbittere und zurueckhaltendem Hopfenaroma\n\nNutze in Deutschland uebliche Rohstoffe. Beschreibe Rezept und Herstellungsprozess so, dass ein professioneller Produktionspartner den Entwurf fachlich pruefen und weiterbearbeiten kann.",
+  "max_output_tokens": 128000,
+  "model": "gpt-5.6-sol",
+  "reasoning": {
+    "effort": "max"
+  },
+  "store": false,
+  "text": {
+    "verbosity": "low"
+  }
+}

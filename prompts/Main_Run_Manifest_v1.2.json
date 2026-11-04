@@ -1,0 +1,109 @@
+{
+  "manifest_version": "v1.2",
+  "created_date": "2026-08-26",
+  "purpose": "Eingefrorene OpenAI-Hauptlaeufe fuer den GIL-2027-Kernversuch",
+  "freeze_protocol": "public_replication_package_v1.0",
+  "endpoint": "https://api.openai.com/v1/responses",
+  "model": "gpt-5.6-sol",
+  "expected_returned_model": "gpt-5.6-sol",
+  "parameters": {
+    "reasoning": {
+      "effort": "max"
+    },
+    "text": {
+      "verbosity": "low"
+    },
+    "max_output_tokens": 128000,
+    "store": false
+  },
+  "runs": [
+    {
+      "sequence": 1,
+      "condition_id": "C01",
+      "run_id": "RUN-S01-P01-M02-R01",
+      "output_id": "O-S01-P01-M02-R01",
+      "scenario_id": "S01",
+      "prompt_id": "P01",
+      "prompt_instance_id": "PI-S01-P01-v1.0",
+      "replicate_id": "R01",
+      "input": "Ein kleines Brau-KMU bzw. Getraenkestartup moechte ein neues Bier durch einen externen Lohnbrauer produzieren lassen. Erstelle einen produktionsnahen Bierrezeptentwurf als Grundlage fuer die fachliche Abstimmung mit dem Produktionspartner.\n\nSzenario: S01\nBierstil: Pils\nAusschlagmenge: 1.000 Liter\nZiel-Stammwuerze: 11,3 Grad Plato\nZiel-Alkoholgehalt: 4,8 % vol.\nZiel-Bittere: 38 IBU\nZiel-Farbe: 6-8 EBC\nZielcharakter: hell, klar, schlank, trocken und sauber vergoren, mit deutlicher Hopfenbittere und zurueckhaltendem Hopfenaroma\n\nNutze in Deutschland uebliche Rohstoffe. Beschreibe Rezept und Herstellungsprozess so, dass ein professioneller Produktionspartner den Entwurf fachlich pruefen und weiterbearbeiten kann."
+    },
+    {
+      "sequence": 2,
+      "condition_id": "C01",
+      "run_id": "RUN-S01-P01-M02-R02",
+      "output_id": "O-S01-P01-M02-R02",
+      "scenario_id": "S01",
+      "prompt_id": "P01",
+      "prompt_instance_id": "PI-S01-P01-v1.0",
+      "replicate_id": "R02",
+      "input": "Ein kleines Brau-KMU bzw. Getraenkestartup moechte ein neues Bier durch einen externen Lohnbrauer produzieren lassen. Erstelle einen produktionsnahen Bierrezeptentwurf als Grundlage fuer die fachliche Abstimmung mit dem Produktionspartner.\n\nSzenario: S01\nBierstil: Pils\nAusschlagmenge: 1.000 Liter\nZiel-Stammwuerze: 11,3 Grad Plato\nZiel-Alkoholgehalt: 4,8 % vol.\nZiel-Bittere: 38 IBU\nZiel-Farbe: 6-8 EBC\nZielcharakter: hell, klar, schlank, trocken und sauber vergoren, mit deutlicher Hopfenbittere und zurueckhaltendem Hopfenaroma\n\nNutze in Deutschland uebliche Rohstoffe. Beschreibe Rezept und Herstellungsprozess so, dass ein professioneller Produktionspartner den Entwurf fachlich pruefen und weiterbearbeiten kann."
+    },
+    {
+      "sequence": 3,
+      "condition_id": "C02",
+      "run_id": "RUN-S01-P02-M02-R01",
+      "output_id": "O-S01-P02-M02-R01",
+      "scenario_id": "S01",
+      "prompt_id": "P02",
+      "prompt_instance_id": "PI-S01-P02-v1.0",
+      "replicate_id": "R01",
+      "input": "Du bist ein Brautechnologie-Assistent fuer ein kleines Brau-KMU bzw. Getraenkestartup. Das Unternehmen moechte ein neues Bier durch einen externen Lohnbrauer produzieren lassen. Erstelle einen produktionsnahen Bierrezeptentwurf als strukturiertes technisches Briefing fuer den Produktionspartner.\n\nSzenario: S01\nBierstil: Pils\nAusschlagmenge: 1.000 Liter\nZiel-Stammwuerze: 11,3 Grad Plato\nZiel-Alkoholgehalt: 4,8 % vol.\nZiel-Bittere: 38 IBU\nZiel-Farbe: 6-8 EBC\nZielcharakter: hell, klar, schlank, trocken und sauber vergoren, mit deutlicher Hopfenbittere und zurueckhaltendem Hopfenaroma\n\nNutze in Deutschland uebliche Rohstoffe. Erfinde fehlende Anlagen-, Betriebs- oder Rohstoffdaten nicht als Tatsachen. Kennzeichne notwendige Annahmen und offene Punkte ausdruecklich.\n\nStrukturiere die Antwort in den folgenden Abschnitten:\n\n1. Produktprofil und Zielwerte\n2. Annahmen und Berechnungsgrundlagen\n3. Malzschuettung mit genauer Malzbezeichnung, angenommenem Farbwert soweit relevant, Mengen in kg und Anteilen in Prozent\n4. Wasserbedarf und Hinweise zur Wasseraufbereitung\n5. Maischplan mit Zeit- und Temperaturangaben\n6. Laeutern, Wuerzekochen und Kochdauer\n7. Hopfengaben mit Sorte bzw. Produkt, angenommenem Alpha-Saeuregehalt, Menge, Zeitpunkt und Zweck\n8. Hefe, Anstellmenge und Gaerfuehrung\n9. Reifung, Lagerung, Karbonisierung und vorgesehene Produktklarheit\n10. Erwartete Ziel- und Kontrollwerte einschliesslich Stammwuerze, Endextrakt, Vergaerungsgrad, Alkohol, Bittere und Farbe\n11. Hinweise fuer Skalierung und Abstimmung mit dem Produktionspartner\n12. Offene Punkte, Risiken und zwingender fachlicher Pruefbedarf\n13. Konsistenzpruefung: Summen, Einheiten, Rohstoffannahmen und erkennbare Zielkonflikte\n\nGib bei unsicheren oder anlagenabhaengigen Angaben einen plausiblen Arbeitswert als Annahme an und erlaeutere kurz, was der Produktionspartner bestaetigen oder neu berechnen muss. Stelle den Entwurf nicht als unmittelbar freigegebenes Braurezept dar."
+    },
+    {
+      "sequence": 4,
+      "condition_id": "C02",
+      "run_id": "RUN-S01-P02-M02-R02",
+      "output_id": "O-S01-P02-M02-R02",
+      "scenario_id": "S01",
+      "prompt_id": "P02",
+      "prompt_instance_id": "PI-S01-P02-v1.0",
+      "replicate_id": "R02",
+      "input": "Du bist ein Brautechnologie-Assistent fuer ein kleines Brau-KMU bzw. Getraenkestartup. Das Unternehmen moechte ein neues Bier durch einen externen Lohnbrauer produzieren lassen. Erstelle einen produktionsnahen Bierrezeptentwurf als strukturiertes technisches Briefing fuer den Produktionspartner.\n\nSzenario: S01\nBierstil: Pils\nAusschlagmenge: 1.000 Liter\nZiel-Stammwuerze: 11,3 Grad Plato\nZiel-Alkoholgehalt: 4,8 % vol.\nZiel-Bittere: 38 IBU\nZiel-Farbe: 6-8 EBC\nZielcharakter: hell, klar, schlank, trocken und sauber vergoren, mit deutlicher Hopfenbittere und zurueckhaltendem Hopfenaroma\n\nNutze in Deutschland uebliche Rohstoffe. Erfinde fehlende Anlagen-, Betriebs- oder Rohstoffdaten nicht als Tatsachen. Kennzeichne notwendige Annahmen und offene Punkte ausdruecklich.\n\nStrukturiere die Antwort in den folgenden Abschnitten:\n\n1. Produktprofil und Zielwerte\n2. Annahmen und Berechnungsgrundlagen\n3. Malzschuettung mit genauer Malzbezeichnung, angenommenem Farbwert soweit relevant, Mengen in kg und Anteilen in Prozent\n4. Wasserbedarf und Hinweise zur Wasseraufbereitung\n5. Maischplan mit Zeit- und Temperaturangaben\n6. Laeutern, Wuerzekochen und Kochdauer\n7. Hopfengaben mit Sorte bzw. Produkt, angenommenem Alpha-Saeuregehalt, Menge, Zeitpunkt und Zweck\n8. Hefe, Anstellmenge und Gaerfuehrung\n9. Reifung, Lagerung, Karbonisierung und vorgesehene Produktklarheit\n10. Erwartete Ziel- und Kontrollwerte einschliesslich Stammwuerze, Endextrakt, Vergaerungsgrad, Alkohol, Bittere und Farbe\n11. Hinweise fuer Skalierung und Abstimmung mit dem Produktionspartner\n12. Offene Punkte, Risiken und zwingender fachlicher Pruefbedarf\n13. Konsistenzpruefung: Summen, Einheiten, Rohstoffannahmen und erkennbare Zielkonflikte\n\nGib bei unsicheren oder anlagenabhaengigen Angaben einen plausiblen Arbeitswert als Annahme an und erlaeutere kurz, was der Produktionspartner bestaetigen oder neu berechnen muss. Stelle den Entwurf nicht als unmittelbar freigegebenes Braurezept dar."
+    },
+    {
+      "sequence": 5,
+      "condition_id": "C03",
+      "run_id": "RUN-S02-P01-M02-R01",
+      "output_id": "O-S02-P01-M02-R01",
+      "scenario_id": "S02",
+      "prompt_id": "P01",
+      "prompt_instance_id": "PI-S02-P01-v1.0",
+      "replicate_id": "R01",
+      "input": "Ein kleines Brau-KMU bzw. Getraenkestartup moechte ein neues Bier durch einen externen Lohnbrauer produzieren lassen. Erstelle einen produktionsnahen Bierrezeptentwurf als Grundlage fuer die fachliche Abstimmung mit dem Produktionspartner.\n\nSzenario: S02\nBierstil: Altbier\nAusschlagmenge: 1.000 Liter\nZiel-Stammwuerze: 11,8 Grad Plato\nZiel-Alkoholgehalt: 5,0 % vol.\nZiel-Bittere: 33 IBU\nZiel-Farbe: 30-35 EBC\nZielcharakter: kupferfarben, sauber vergoren, ausgewogen malzig und bitter, mit mittlerem Koerper und trockenem Finish\n\nNutze in Deutschland uebliche Rohstoffe. Beschreibe Rezept und Herstellungsprozess so, dass ein professioneller Produktionspartner den Entwurf fachlich pruefen und weiterbearbeiten kann."
+    },
+    {
+      "sequence": 6,
+      "condition_id": "C03",
+      "run_id": "RUN-S02-P01-M02-R02",
+      "output_id": "O-S02-P01-M02-R02",
+      "scenario_id": "S02",
+      "prompt_id": "P01",
+      "prompt_instance_id": "PI-S02-P01-v1.0",
+      "replicate_id": "R02",
+      "input": "Ein kleines Brau-KMU bzw. Getraenkestartup moechte ein neues Bier durch einen externen Lohnbrauer produzieren lassen. Erstelle einen produktionsnahen Bierrezeptentwurf als Grundlage fuer die fachliche Abstimmung mit dem Produktionspartner.\n\nSzenario: S02\nBierstil: Altbier\nAusschlagmenge: 1.000 Liter\nZiel-Stammwuerze: 11,8 Grad Plato\nZiel-Alkoholgehalt: 5,0 % vol.\nZiel-Bittere: 33 IBU\nZiel-Farbe: 30-35 EBC\nZielcharakter: kupferfarben, sauber vergoren, ausgewogen malzig und bitter, mit mittlerem Koerper und trockenem Finish\n\nNutze in Deutschland uebliche Rohstoffe. Beschreibe Rezept und Herstellungsprozess so, dass ein professioneller Produktionspartner den Entwurf fachlich pruefen und weiterbearbeiten kann."
+    },
+    {
+      "sequence": 7,
+      "condition_id": "C04",
+      "run_id": "RUN-S02-P02-M02-R01",
+      "output_id": "O-S02-P02-M02-R01",
+      "scenario_id": "S02",
+      "prompt_id": "P02",
+      "prompt_instance_id": "PI-S02-P02-v1.0",
+      "replicate_id": "R01",
+      "input": "Du bist ein Brautechnologie-Assistent fuer ein kleines Brau-KMU bzw. Getraenkestartup. Das Unternehmen moechte ein neues Bier durch einen externen Lohnbrauer produzieren lassen. Erstelle einen produktionsnahen Bierrezeptentwurf als strukturiertes technisches Briefing fuer den Produktionspartner.\n\nSzenario: S02\nBierstil: Altbier\nAusschlagmenge: 1.000 Liter\nZiel-Stammwuerze: 11,8 Grad Plato\nZiel-Alkoholgehalt: 5,0 % vol.\nZiel-Bittere: 33 IBU\nZiel-Farbe: 30-35 EBC\nZielcharakter: kupferfarben, sauber vergoren, ausgewogen malzig und bitter, mit mittlerem Koerper und trockenem Finish\n\nNutze in Deutschland uebliche Rohstoffe. Erfinde fehlende Anlagen-, Betriebs- oder Rohstoffdaten nicht als Tatsachen. Kennzeichne notwendige Annahmen und offene Punkte ausdruecklich.\n\nStrukturiere die Antwort in den folgenden Abschnitten:\n\n1. Produktprofil und Zielwerte\n2. Annahmen und Berechnungsgrundlagen\n3. Malzschuettung mit genauer Malzbezeichnung, angenommenem Farbwert soweit relevant, Mengen in kg und Anteilen in Prozent\n4. Wasserbedarf und Hinweise zur Wasseraufbereitung\n5. Maischplan mit Zeit- und Temperaturangaben\n6. Laeutern, Wuerzekochen und Kochdauer\n7. Hopfengaben mit Sorte bzw. Produkt, angenommenem Alpha-Saeuregehalt, Menge, Zeitpunkt und Zweck\n8. Hefe, Anstellmenge und Gaerfuehrung\n9. Reifung, Lagerung, Karbonisierung und vorgesehene Produktklarheit\n10. Erwartete Ziel- und Kontrollwerte einschliesslich Stammwuerze, Endextrakt, Vergaerungsgrad, Alkohol, Bittere und Farbe\n11. Hinweise fuer Skalierung und Abstimmung mit dem Produktionspartner\n12. Offene Punkte, Risiken und zwingender fachlicher Pruefbedarf\n13. Konsistenzpruefung: Summen, Einheiten, Rohstoffannahmen und erkennbare Zielkonflikte\n\nGib bei unsicheren oder anlagenabhaengigen Angaben einen plausiblen Arbeitswert als Annahme an und erlaeutere kurz, was der Produktionspartner bestaetigen oder neu berechnen muss. Stelle den Entwurf nicht als unmittelbar freigegebenes Braurezept dar."
+    },
+    {
+      "sequence": 8,
+      "condition_id": "C04",
+      "run_id": "RUN-S02-P02-M02-R02",
+      "output_id": "O-S02-P02-M02-R02",
+      "scenario_id": "S02",
+      "prompt_id": "P02",
+      "prompt_instance_id": "PI-S02-P02-v1.0",
+      "replicate_id": "R02",
+      "input": "Du bist ein Brautechnologie-Assistent fuer ein kleines Brau-KMU bzw. Getraenkestartup. Das Unternehmen moechte ein neues Bier durch einen externen Lohnbrauer produzieren lassen. Erstelle einen produktionsnahen Bierrezeptentwurf als strukturiertes technisches Briefing fuer den Produktionspartner.\n\nSzenario: S02\nBierstil: Altbier\nAusschlagmenge: 1.000 Liter\nZiel-Stammwuerze: 11,8 Grad Plato\nZiel-Alkoholgehalt: 5,0 % vol.\nZiel-Bittere: 33 IBU\nZiel-Farbe: 30-35 EBC\nZielcharakter: kupferfarben, sauber vergoren, ausgewogen malzig und bitter, mit mittlerem Koerper und trockenem Finish\n\nNutze in Deutschland uebliche Rohstoffe. Erfinde fehlende Anlagen-, Betriebs- oder Rohstoffdaten nicht als Tatsachen. Kennzeichne notwendige Annahmen und offene Punkte ausdruecklich.\n\nStrukturiere die Antwort in den folgenden Abschnitten:\n\n1. Produktprofil und Zielwerte\n2. Annahmen und Berechnungsgrundlagen\n3. Malzschuettung mit genauer Malzbezeichnung, angenommenem Farbwert soweit relevant, Mengen in kg und Anteilen in Prozent\n4. Wasserbedarf und Hinweise zur Wasseraufbereitung\n5. Maischplan mit Zeit- und Temperaturangaben\n6. Laeutern, Wuerzekochen und Kochdauer\n7. Hopfengaben mit Sorte bzw. Produkt, angenommenem Alpha-Saeuregehalt, Menge, Zeitpunkt und Zweck\n8. Hefe, Anstellmenge und Gaerfuehrung\n9. Reifung, Lagerung, Karbonisierung und vorgesehene Produktklarheit\n10. Erwartete Ziel- und Kontrollwerte einschliesslich Stammwuerze, Endextrakt, Vergaerungsgrad, Alkohol, Bittere und Farbe\n11. Hinweise fuer Skalierung und Abstimmung mit dem Produktionspartner\n12. Offene Punkte, Risiken und zwingender fachlicher Pruefbedarf\n13. Konsistenzpruefung: Summen, Einheiten, Rohstoffannahmen und erkennbare Zielkonflikte\n\nGib bei unsicheren oder anlagenabhaengigen Angaben einen plausiblen Arbeitswert als Annahme an und erlaeutere kurz, was der Produktionspartner bestaetigen oder neu berechnen muss. Stelle den Entwurf nicht als unmittelbar freigegebenes Braurezept dar."
+    }
+  ]
+}

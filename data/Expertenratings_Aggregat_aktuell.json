@@ -1,0 +1,1280 @@
+{
+  "as_of": "2026-10-04",
+  "configuration": "Inclusion decisions are documented in collection_status and sources below.",
+  "method": {
+    "rating_scale": "ordinal 1-5; NB excluded from numeric summaries",
+    "aggregation": "criterion-specific reviewer medians; no composite index",
+    "prompt_effect": "within-reviewer difference of criterion medians, P02 minus P01",
+    "style_effect": "within-reviewer difference of criterion medians, Altbier minus Pils",
+    "repeated_measures_warning": "outputs and criterion ratings are not independent reviewers"
+  },
+  "collection_status": {
+    "included_reviewers": [
+      "E02",
+      "E03",
+      "E06"
+    ],
+    "not_included_reviewers": {
+      "E05": "closed_no_return",
+      "E12": "closed_no_return"
+    }
+  },
+  "sources": {
+    "E02": {
+      "filename": "E02_Bewertungsmappe_Ruecklauf_2026-09-15_original.xlsx",
+      "sha256": "A8090BC25375CC7A71ADE99F1BD5C4047119A62DBA73E26AA3D83FD4C0D95AFE",
+      "rework_types_status": "missing_code_misunderstood_as_time",
+      "qualitative_provenance": "human_notes_ai_worded"
+    },
+    "E03": {
+      "filename": "E03_Bewertungsmappe_Ruecklauf_2026-09-15_original.xlsx",
+      "sha256": "F749A4AC6C295CFA97CB8410C26EB10AD75FADED0566FBE722D5F89A5AF919D0",
+      "rework_types_status": "not_assessable_option_missing",
+      "qualitative_provenance": "human_unassisted"
+    },
+    "E06": {
+      "filename": "E06_Bewertungsmappe_Ruecklauf_2026-09-10_export.xlsx",
+      "sha256": "10C1729C37B0AFD4F2E5DB3F3D141880663D3E48DD46FD795812FE6BE61DC063",
+      "rework_types_status": "valid",
+      "qualitative_provenance": "human_unassisted"
+    }
+  },
+  "sample": {
+    "professional_reviewers": 3,
+    "recipe_evaluations": 24,
+    "possible_criterion_ratings": 192,
+    "numeric_criterion_ratings": 176,
+    "nb_criterion_ratings": 16
+  },
+  "criteria": {
+    "sme_fit": {
+      "numeric_ratings": 24,
+      "nb_ratings": 0,
+      "rating_distribution": {
+        "3": 2,
+        "4": 3,
+        "5": 19
+      },
+      "reviewer_medians": {
+        "E02": 5,
+        "E03": 5,
+        "E06": 4
+      },
+      "median_of_reviewer_medians": 5
+    },
+    "production_readiness": {
+      "numeric_ratings": 24,
+      "nb_ratings": 0,
+      "rating_distribution": {
+        "3": 2,
+        "4": 14,
+        "5": 8
+      },
+      "reviewer_medians": {
+        "E02": 5,
+        "E03": 4,
+        "E06": 4
+      },
+      "median_of_reviewer_medians": 4
+    },
+    "technical_plausibility": {
+      "numeric_ratings": 24,
+      "nb_ratings": 0,
+      "rating_distribution": {
+        "2": 1,
+        "3": 3,
+        "4": 5,
+        "5": 15
+      },
+      "reviewer_medians": {
+        "E02": 3.5,
+        "E03": 5,
+        "E06": 5
+      },
+      "median_of_reviewer_medians": 5
+    },
+    "style_fidelity": {
+      "numeric_ratings": 16,
+      "nb_ratings": 8,
+      "rating_distribution": {
+        "2": 1,
+        "3": 3,
+        "4": 5,
+        "5": 7,
+        "NB": 8
+      },
+      "reviewer_medians": {
+        "E02": 4.5,
+        "E06": 4
+      },
+      "median_of_reviewer_medians": 4.25
+    },
+    "pilotability": {
+      "numeric_ratings": 24,
+      "nb_ratings": 0,
+      "rating_distribution": {
+        "4": 3,
+        "5": 21
+      },
+      "reviewer_medians": {
+        "E02": 5,
+        "E03": 5,
+        "E06": 5
+      },
+      "median_of_reviewer_medians": 5
+    },
+    "briefing_quality": {
+      "numeric_ratings": 24,
+      "nb_ratings": 0,
+      "rating_distribution": {
+        "3": 4,
+        "4": 11,
+        "5": 9
+      },
+      "reviewer_medians": {
+        "E02": 4,
+        "E03": 4,
+        "E06": 5
+      },
+      "median_of_reviewer_medians": 4
+    },
+    "correction_need": {
+      "numeric_ratings": 24,
+      "nb_ratings": 0,
+      "rating_distribution": {
+        "2": 2,
+        "3": 2,
+        "4": 9,
+        "5": 11
+      },
+      "reviewer_medians": {
+        "E02": 4,
+        "E03": 5,
+        "E06": 4
+      },
+      "median_of_reviewer_medians": 4
+    },
+    "overall_recommendation": {
+      "numeric_ratings": 16,
+      "nb_ratings": 8,
+      "rating_distribution": {
+        "3": 3,
+        "4": 7,
+        "5": 6,
+        "NB": 8
+      },
+      "reviewer_medians": {
+        "E02": 4,
+        "E06": 4.5
+      },
+      "median_of_reviewer_medians": 4.25
+    }
+  },
+  "prompt_effect": {
+    "comparison_unit": "reviewer-by-criterion median",
+    "low_level": "P01",
+    "high_level": "P02",
+    "assessable_comparisons": 22,
+    "direction_counts": {
+      "equal": 11,
+      "higher": 10,
+      "lower": 1
+    },
+    "by_criterion": {
+      "briefing_quality": {
+        "higher": 1,
+        "equal": 2
+      },
+      "correction_need": {
+        "higher": 1,
+        "equal": 2
+      },
+      "overall_recommendation": {
+        "higher": 2
+      },
+      "pilotability": {
+        "equal": 2,
+        "higher": 1
+      },
+      "production_readiness": {
+        "higher": 2,
+        "equal": 1
+      },
+      "sme_fit": {
+        "equal": 2,
+        "higher": 1
+      },
+      "style_fidelity": {
+        "lower": 1,
+        "higher": 1
+      },
+      "technical_plausibility": {
+        "equal": 2,
+        "higher": 1
+      }
+    },
+    "by_reviewer": {
+      "E02": {
+        "equal": 3,
+        "higher": 4,
+        "lower": 1
+      },
+      "E03": {
+        "equal": 6
+      },
+      "E06": {
+        "higher": 6,
+        "equal": 2
+      }
+    },
+    "comparisons": [
+      {
+        "reviewer": "E02",
+        "criterion": "sme_fit",
+        "P01_median": 5,
+        "P02_median": 5,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E02",
+        "criterion": "production_readiness",
+        "P01_median": 4,
+        "P02_median": 5,
+        "difference": 1,
+        "direction": "higher"
+      },
+      {
+        "reviewer": "E02",
+        "criterion": "technical_plausibility",
+        "P01_median": 3.5,
+        "P02_median": 3.5,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E02",
+        "criterion": "style_fidelity",
+        "P01_median": 5,
+        "P02_median": 4,
+        "difference": -1,
+        "direction": "lower"
+      },
+      {
+        "reviewer": "E02",
+        "criterion": "pilotability",
+        "P01_median": 5,
+        "P02_median": 5,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E02",
+        "criterion": "briefing_quality",
+        "P01_median": 3,
+        "P02_median": 4,
+        "difference": 1,
+        "direction": "higher"
+      },
+      {
+        "reviewer": "E02",
+        "criterion": "correction_need",
+        "P01_median": 3.5,
+        "P02_median": 4,
+        "difference": 0.5,
+        "direction": "higher"
+      },
+      {
+        "reviewer": "E02",
+        "criterion": "overall_recommendation",
+        "P01_median": 3.5,
+        "P02_median": 4,
+        "difference": 0.5,
+        "direction": "higher"
+      },
+      {
+        "reviewer": "E03",
+        "criterion": "sme_fit",
+        "P01_median": 5,
+        "P02_median": 5,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E03",
+        "criterion": "production_readiness",
+        "P01_median": 4,
+        "P02_median": 4,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E03",
+        "criterion": "technical_plausibility",
+        "P01_median": 5,
+        "P02_median": 5,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E03",
+        "criterion": "pilotability",
+        "P01_median": 5,
+        "P02_median": 5,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E03",
+        "criterion": "briefing_quality",
+        "P01_median": 4,
+        "P02_median": 4,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E03",
+        "criterion": "correction_need",
+        "P01_median": 5,
+        "P02_median": 5,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E06",
+        "criterion": "sme_fit",
+        "P01_median": 4,
+        "P02_median": 4.5,
+        "difference": 0.5,
+        "direction": "higher"
+      },
+      {
+        "reviewer": "E06",
+        "criterion": "production_readiness",
+        "P01_median": 4,
+        "P02_median": 4.5,
+        "difference": 0.5,
+        "direction": "higher"
+      },
+      {
+        "reviewer": "E06",
+        "criterion": "technical_plausibility",
+        "P01_median": 4.5,
+        "P02_median": 5,
+        "difference": 0.5,
+        "direction": "higher"
+      },
+      {
+        "reviewer": "E06",
+        "criterion": "style_fidelity",
+        "P01_median": 3.5,
+        "P02_median": 4.5,
+        "difference": 1,
+        "direction": "higher"
+      },
+      {
+        "reviewer": "E06",
+        "criterion": "pilotability",
+        "P01_median": 4.5,
+        "P02_median": 5,
+        "difference": 0.5,
+        "direction": "higher"
+      },
+      {
+        "reviewer": "E06",
+        "criterion": "briefing_quality",
+        "P01_median": 5,
+        "P02_median": 5,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E06",
+        "criterion": "correction_need",
+        "P01_median": 4,
+        "P02_median": 4,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E06",
+        "criterion": "overall_recommendation",
+        "P01_median": 4,
+        "P02_median": 5,
+        "difference": 1,
+        "direction": "higher"
+      }
+    ]
+  },
+  "style_effect": {
+    "comparison_unit": "reviewer-by-criterion median",
+    "low_level": "Pils",
+    "high_level": "Altbier",
+    "assessable_comparisons": 22,
+    "direction_counts": {
+      "equal": 12,
+      "higher": 4,
+      "lower": 6
+    },
+    "by_criterion": {
+      "briefing_quality": {
+        "higher": 1,
+        "equal": 2
+      },
+      "correction_need": {
+        "higher": 1,
+        "equal": 1,
+        "lower": 1
+      },
+      "overall_recommendation": {
+        "higher": 1,
+        "lower": 1
+      },
+      "pilotability": {
+        "equal": 3
+      },
+      "production_readiness": {
+        "higher": 1,
+        "equal": 1,
+        "lower": 1
+      },
+      "sme_fit": {
+        "equal": 2,
+        "lower": 1
+      },
+      "style_fidelity": {
+        "equal": 1,
+        "lower": 1
+      },
+      "technical_plausibility": {
+        "equal": 2,
+        "lower": 1
+      }
+    },
+    "by_reviewer": {
+      "E02": {
+        "equal": 4,
+        "higher": 4
+      },
+      "E03": {
+        "equal": 6
+      },
+      "E06": {
+        "lower": 6,
+        "equal": 2
+      }
+    },
+    "comparisons": [
+      {
+        "reviewer": "E02",
+        "criterion": "sme_fit",
+        "Pils_median": 5,
+        "Altbier_median": 5,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E02",
+        "criterion": "production_readiness",
+        "Pils_median": 4.5,
+        "Altbier_median": 5,
+        "difference": 0.5,
+        "direction": "higher"
+      },
+      {
+        "reviewer": "E02",
+        "criterion": "technical_plausibility",
+        "Pils_median": 3.5,
+        "Altbier_median": 3.5,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E02",
+        "criterion": "style_fidelity",
+        "Pils_median": 4.5,
+        "Altbier_median": 4.5,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E02",
+        "criterion": "pilotability",
+        "Pils_median": 5,
+        "Altbier_median": 5,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E02",
+        "criterion": "briefing_quality",
+        "Pils_median": 3.5,
+        "Altbier_median": 4,
+        "difference": 0.5,
+        "direction": "higher"
+      },
+      {
+        "reviewer": "E02",
+        "criterion": "correction_need",
+        "Pils_median": 3.5,
+        "Altbier_median": 4,
+        "difference": 0.5,
+        "direction": "higher"
+      },
+      {
+        "reviewer": "E02",
+        "criterion": "overall_recommendation",
+        "Pils_median": 3.5,
+        "Altbier_median": 4,
+        "difference": 0.5,
+        "direction": "higher"
+      },
+      {
+        "reviewer": "E03",
+        "criterion": "sme_fit",
+        "Pils_median": 5,
+        "Altbier_median": 5,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E03",
+        "criterion": "production_readiness",
+        "Pils_median": 4,
+        "Altbier_median": 4,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E03",
+        "criterion": "technical_plausibility",
+        "Pils_median": 5,
+        "Altbier_median": 5,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E03",
+        "criterion": "pilotability",
+        "Pils_median": 5,
+        "Altbier_median": 5,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E03",
+        "criterion": "briefing_quality",
+        "Pils_median": 4,
+        "Altbier_median": 4,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E03",
+        "criterion": "correction_need",
+        "Pils_median": 5,
+        "Altbier_median": 5,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E06",
+        "criterion": "sme_fit",
+        "Pils_median": 5,
+        "Altbier_median": 3.5,
+        "difference": -1.5,
+        "direction": "lower"
+      },
+      {
+        "reviewer": "E06",
+        "criterion": "production_readiness",
+        "Pils_median": 5,
+        "Altbier_median": 4,
+        "difference": -1,
+        "direction": "lower"
+      },
+      {
+        "reviewer": "E06",
+        "criterion": "technical_plausibility",
+        "Pils_median": 5,
+        "Altbier_median": 4.5,
+        "difference": -0.5,
+        "direction": "lower"
+      },
+      {
+        "reviewer": "E06",
+        "criterion": "style_fidelity",
+        "Pils_median": 4.5,
+        "Altbier_median": 3.5,
+        "difference": -1,
+        "direction": "lower"
+      },
+      {
+        "reviewer": "E06",
+        "criterion": "pilotability",
+        "Pils_median": 5,
+        "Altbier_median": 5,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E06",
+        "criterion": "briefing_quality",
+        "Pils_median": 5,
+        "Altbier_median": 5,
+        "difference": 0,
+        "direction": "equal"
+      },
+      {
+        "reviewer": "E06",
+        "criterion": "correction_need",
+        "Pils_median": 4.5,
+        "Altbier_median": 4,
+        "difference": -0.5,
+        "direction": "lower"
+      },
+      {
+        "reviewer": "E06",
+        "criterion": "overall_recommendation",
+        "Pils_median": 5,
+        "Altbier_median": 4,
+        "difference": -1,
+        "direction": "lower"
+      }
+    ]
+  },
+  "manual_rework_time": {
+    "assessable_outputs": 16,
+    "not_assessable_outputs": 8,
+    "distribution": {
+      "T1": 12,
+      "T2": 4
+    }
+  },
+  "llm_rework": {
+    "assessable_outputs": 13,
+    "not_assessable_outputs": 11,
+    "distribution": {
+      "A3": 12,
+      "A4": 1
+    }
+  },
+  "rework_types": {
+    "assessable_outputs": 8,
+    "missing_outputs": 16,
+    "valid_reviewers": [
+      "E06"
+    ],
+    "invalid_or_missing_reviewers": [
+      "E02",
+      "E03"
+    ],
+    "distribution": {
+      "N0": 3,
+      "N2": 1,
+      "N3": 4,
+      "N4": 4,
+      "N5": 1
+    },
+    "warning": "Rework-type selections are not valid for all reviewers; frequencies must be reported with reviewer- and output-specific denominators."
+  },
+  "records": [
+    {
+      "reviewer": "E02",
+      "blind_id": "B01",
+      "output_id": "O-S01-P01-M02-R02",
+      "scenario": "S01",
+      "style": "Pils",
+      "prompt": "P01",
+      "repetition": "R02",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 3,
+        "technical_plausibility": 2,
+        "style_fidelity": 3,
+        "pilotability": 4,
+        "briefing_quality": 3,
+        "correction_need": 2,
+        "overall_recommendation": 3
+      },
+      "time_code": "T1",
+      "llm_rework_code": "A3",
+      "rework_types": null,
+      "rework_types_status": "missing_code_misunderstood_as_time",
+      "qualitative_provenance": "human_notes_ai_worded"
+    },
+    {
+      "reviewer": "E02",
+      "blind_id": "B02",
+      "output_id": "O-S01-P01-M02-R01",
+      "scenario": "S01",
+      "style": "Pils",
+      "prompt": "P01",
+      "repetition": "R01",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 4,
+        "technical_plausibility": 3,
+        "style_fidelity": 5,
+        "pilotability": 5,
+        "briefing_quality": 3,
+        "correction_need": 3,
+        "overall_recommendation": 3
+      },
+      "time_code": "T1",
+      "llm_rework_code": "A3",
+      "rework_types": null,
+      "rework_types_status": "missing_code_misunderstood_as_time",
+      "qualitative_provenance": "human_notes_ai_worded"
+    },
+    {
+      "reviewer": "E02",
+      "blind_id": "B03",
+      "output_id": "O-S02-P01-M02-R02",
+      "scenario": "S02",
+      "style": "Altbier",
+      "prompt": "P01",
+      "repetition": "R02",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 4,
+        "technical_plausibility": 4,
+        "style_fidelity": 5,
+        "pilotability": 5,
+        "briefing_quality": 3,
+        "correction_need": 4,
+        "overall_recommendation": 4
+      },
+      "time_code": "T1",
+      "llm_rework_code": "A3",
+      "rework_types": null,
+      "rework_types_status": "missing_code_misunderstood_as_time",
+      "qualitative_provenance": "human_notes_ai_worded"
+    },
+    {
+      "reviewer": "E02",
+      "blind_id": "B04",
+      "output_id": "O-S01-P02-M02-R01",
+      "scenario": "S01",
+      "style": "Pils",
+      "prompt": "P02",
+      "repetition": "R01",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 5,
+        "technical_plausibility": 5,
+        "style_fidelity": 4,
+        "pilotability": 5,
+        "briefing_quality": 4,
+        "correction_need": 4,
+        "overall_recommendation": 4
+      },
+      "time_code": "T1",
+      "llm_rework_code": "A3",
+      "rework_types": null,
+      "rework_types_status": "missing_code_misunderstood_as_time",
+      "qualitative_provenance": "human_notes_ai_worded"
+    },
+    {
+      "reviewer": "E02",
+      "blind_id": "B05",
+      "output_id": "O-S01-P02-M02-R02",
+      "scenario": "S01",
+      "style": "Pils",
+      "prompt": "P02",
+      "repetition": "R02",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 5,
+        "technical_plausibility": 4,
+        "style_fidelity": 5,
+        "pilotability": 5,
+        "briefing_quality": 5,
+        "correction_need": 5,
+        "overall_recommendation": 5
+      },
+      "time_code": "T1",
+      "llm_rework_code": "A3",
+      "rework_types": null,
+      "rework_types_status": "missing_code_misunderstood_as_time",
+      "qualitative_provenance": "human_notes_ai_worded"
+    },
+    {
+      "reviewer": "E02",
+      "blind_id": "B06",
+      "output_id": "O-S02-P02-M02-R01",
+      "scenario": "S02",
+      "style": "Altbier",
+      "prompt": "P02",
+      "repetition": "R01",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 5,
+        "technical_plausibility": 3,
+        "style_fidelity": 4,
+        "pilotability": 5,
+        "briefing_quality": 4,
+        "correction_need": 4,
+        "overall_recommendation": 4
+      },
+      "time_code": "T1",
+      "llm_rework_code": "A3",
+      "rework_types": null,
+      "rework_types_status": "missing_code_misunderstood_as_time",
+      "qualitative_provenance": "human_notes_ai_worded"
+    },
+    {
+      "reviewer": "E02",
+      "blind_id": "B07",
+      "output_id": "O-S02-P02-M02-R02",
+      "scenario": "S02",
+      "style": "Altbier",
+      "prompt": "P02",
+      "repetition": "R02",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 5,
+        "technical_plausibility": 3,
+        "style_fidelity": 2,
+        "pilotability": 5,
+        "briefing_quality": 4,
+        "correction_need": 2,
+        "overall_recommendation": 4
+      },
+      "time_code": "T1",
+      "llm_rework_code": "A3",
+      "rework_types": null,
+      "rework_types_status": "missing_code_misunderstood_as_time",
+      "qualitative_provenance": "human_notes_ai_worded"
+    },
+    {
+      "reviewer": "E02",
+      "blind_id": "B08",
+      "output_id": "O-S02-P01-M02-R01",
+      "scenario": "S02",
+      "style": "Altbier",
+      "prompt": "P01",
+      "repetition": "R01",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 5,
+        "technical_plausibility": 4,
+        "style_fidelity": 5,
+        "pilotability": 5,
+        "briefing_quality": 5,
+        "correction_need": 4,
+        "overall_recommendation": 5
+      },
+      "time_code": "T1",
+      "llm_rework_code": "A3",
+      "rework_types": null,
+      "rework_types_status": "missing_code_misunderstood_as_time",
+      "qualitative_provenance": "human_notes_ai_worded"
+    },
+    {
+      "reviewer": "E03",
+      "blind_id": "B01",
+      "output_id": "O-S01-P01-M02-R02",
+      "scenario": "S01",
+      "style": "Pils",
+      "prompt": "P01",
+      "repetition": "R02",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 4,
+        "technical_plausibility": 5,
+        "style_fidelity": "NB",
+        "pilotability": 5,
+        "briefing_quality": 4,
+        "correction_need": 5,
+        "overall_recommendation": "NB"
+      },
+      "time_code": "TX",
+      "llm_rework_code": "AX",
+      "rework_types": null,
+      "rework_types_status": "not_assessable_option_missing",
+      "qualitative_provenance": "human_unassisted"
+    },
+    {
+      "reviewer": "E03",
+      "blind_id": "B02",
+      "output_id": "O-S01-P01-M02-R01",
+      "scenario": "S01",
+      "style": "Pils",
+      "prompt": "P01",
+      "repetition": "R01",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 4,
+        "technical_plausibility": 5,
+        "style_fidelity": "NB",
+        "pilotability": 5,
+        "briefing_quality": 4,
+        "correction_need": 5,
+        "overall_recommendation": "NB"
+      },
+      "time_code": "TX",
+      "llm_rework_code": "AX",
+      "rework_types": null,
+      "rework_types_status": "not_assessable_option_missing",
+      "qualitative_provenance": "human_unassisted"
+    },
+    {
+      "reviewer": "E03",
+      "blind_id": "B03",
+      "output_id": "O-S02-P01-M02-R02",
+      "scenario": "S02",
+      "style": "Altbier",
+      "prompt": "P01",
+      "repetition": "R02",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 4,
+        "technical_plausibility": 5,
+        "style_fidelity": "NB",
+        "pilotability": 5,
+        "briefing_quality": 4,
+        "correction_need": 5,
+        "overall_recommendation": "NB"
+      },
+      "time_code": "TX",
+      "llm_rework_code": "AX",
+      "rework_types": null,
+      "rework_types_status": "not_assessable_option_missing",
+      "qualitative_provenance": "human_unassisted"
+    },
+    {
+      "reviewer": "E03",
+      "blind_id": "B04",
+      "output_id": "O-S01-P02-M02-R01",
+      "scenario": "S01",
+      "style": "Pils",
+      "prompt": "P02",
+      "repetition": "R01",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 4,
+        "technical_plausibility": 5,
+        "style_fidelity": "NB",
+        "pilotability": 5,
+        "briefing_quality": 4,
+        "correction_need": 5,
+        "overall_recommendation": "NB"
+      },
+      "time_code": "TX",
+      "llm_rework_code": "AX",
+      "rework_types": null,
+      "rework_types_status": "not_assessable_option_missing",
+      "qualitative_provenance": "human_unassisted"
+    },
+    {
+      "reviewer": "E03",
+      "blind_id": "B05",
+      "output_id": "O-S01-P02-M02-R02",
+      "scenario": "S01",
+      "style": "Pils",
+      "prompt": "P02",
+      "repetition": "R02",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 4,
+        "technical_plausibility": 5,
+        "style_fidelity": "NB",
+        "pilotability": 5,
+        "briefing_quality": 4,
+        "correction_need": 5,
+        "overall_recommendation": "NB"
+      },
+      "time_code": "TX",
+      "llm_rework_code": "AX",
+      "rework_types": null,
+      "rework_types_status": "not_assessable_option_missing",
+      "qualitative_provenance": "human_unassisted"
+    },
+    {
+      "reviewer": "E03",
+      "blind_id": "B06",
+      "output_id": "O-S02-P02-M02-R01",
+      "scenario": "S02",
+      "style": "Altbier",
+      "prompt": "P02",
+      "repetition": "R01",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 4,
+        "technical_plausibility": 5,
+        "style_fidelity": "NB",
+        "pilotability": 5,
+        "briefing_quality": 4,
+        "correction_need": 5,
+        "overall_recommendation": "NB"
+      },
+      "time_code": "TX",
+      "llm_rework_code": "AX",
+      "rework_types": null,
+      "rework_types_status": "not_assessable_option_missing",
+      "qualitative_provenance": "human_unassisted"
+    },
+    {
+      "reviewer": "E03",
+      "blind_id": "B07",
+      "output_id": "O-S02-P02-M02-R02",
+      "scenario": "S02",
+      "style": "Altbier",
+      "prompt": "P02",
+      "repetition": "R02",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 4,
+        "technical_plausibility": 5,
+        "style_fidelity": "NB",
+        "pilotability": 5,
+        "briefing_quality": 4,
+        "correction_need": 5,
+        "overall_recommendation": "NB"
+      },
+      "time_code": "TX",
+      "llm_rework_code": "AX",
+      "rework_types": null,
+      "rework_types_status": "not_assessable_option_missing",
+      "qualitative_provenance": "human_unassisted"
+    },
+    {
+      "reviewer": "E03",
+      "blind_id": "B08",
+      "output_id": "O-S02-P01-M02-R01",
+      "scenario": "S02",
+      "style": "Altbier",
+      "prompt": "P01",
+      "repetition": "R01",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 4,
+        "technical_plausibility": 5,
+        "style_fidelity": "NB",
+        "pilotability": 5,
+        "briefing_quality": 4,
+        "correction_need": 5,
+        "overall_recommendation": "NB"
+      },
+      "time_code": "TX",
+      "llm_rework_code": "AX",
+      "rework_types": null,
+      "rework_types_status": "not_assessable_option_missing",
+      "qualitative_provenance": "human_unassisted"
+    },
+    {
+      "reviewer": "E06",
+      "blind_id": "B01",
+      "output_id": "O-S01-P01-M02-R02",
+      "scenario": "S01",
+      "style": "Pils",
+      "prompt": "P01",
+      "repetition": "R02",
+      "ratings": {
+        "sme_fit": 4,
+        "production_readiness": 4,
+        "technical_plausibility": 5,
+        "style_fidelity": 4,
+        "pilotability": 4,
+        "briefing_quality": 3,
+        "correction_need": 4,
+        "overall_recommendation": 4
+      },
+      "time_code": "T2",
+      "llm_rework_code": "A3",
+      "rework_types": [
+        "N3",
+        "N4"
+      ],
+      "rework_types_status": "valid",
+      "qualitative_provenance": "human_unassisted"
+    },
+    {
+      "reviewer": "E06",
+      "blind_id": "B02",
+      "output_id": "O-S01-P01-M02-R01",
+      "scenario": "S01",
+      "style": "Pils",
+      "prompt": "P01",
+      "repetition": "R01",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 5,
+        "technical_plausibility": 5,
+        "style_fidelity": 5,
+        "pilotability": 5,
+        "briefing_quality": 5,
+        "correction_need": 5,
+        "overall_recommendation": 5
+      },
+      "time_code": "T1",
+      "llm_rework_code": "AX",
+      "rework_types": [
+        "N0"
+      ],
+      "rework_types_status": "valid",
+      "qualitative_provenance": "human_unassisted"
+    },
+    {
+      "reviewer": "E06",
+      "blind_id": "B03",
+      "output_id": "O-S02-P01-M02-R02",
+      "scenario": "S02",
+      "style": "Altbier",
+      "prompt": "P01",
+      "repetition": "R02",
+      "ratings": {
+        "sme_fit": 4,
+        "production_readiness": 4,
+        "technical_plausibility": 4,
+        "style_fidelity": 3,
+        "pilotability": 4,
+        "briefing_quality": 5,
+        "correction_need": 3,
+        "overall_recommendation": 4
+      },
+      "time_code": "T2",
+      "llm_rework_code": "A4",
+      "rework_types": [
+        "N4"
+      ],
+      "rework_types_status": "valid",
+      "qualitative_provenance": "human_unassisted"
+    },
+    {
+      "reviewer": "E06",
+      "blind_id": "B04",
+      "output_id": "O-S01-P02-M02-R01",
+      "scenario": "S01",
+      "style": "Pils",
+      "prompt": "P02",
+      "repetition": "R01",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 5,
+        "technical_plausibility": 5,
+        "style_fidelity": 4,
+        "pilotability": 5,
+        "briefing_quality": 5,
+        "correction_need": 4,
+        "overall_recommendation": 5
+      },
+      "time_code": "T1",
+      "llm_rework_code": "AX",
+      "rework_types": [
+        "N0"
+      ],
+      "rework_types_status": "valid",
+      "qualitative_provenance": "human_unassisted"
+    },
+    {
+      "reviewer": "E06",
+      "blind_id": "B05",
+      "output_id": "O-S01-P02-M02-R02",
+      "scenario": "S01",
+      "style": "Pils",
+      "prompt": "P02",
+      "repetition": "R02",
+      "ratings": {
+        "sme_fit": 5,
+        "production_readiness": 5,
+        "technical_plausibility": 5,
+        "style_fidelity": 5,
+        "pilotability": 5,
+        "briefing_quality": 5,
+        "correction_need": 5,
+        "overall_recommendation": 5
+      },
+      "time_code": "T1",
+      "llm_rework_code": "AX",
+      "rework_types": [
+        "N0"
+      ],
+      "rework_types_status": "valid",
+      "qualitative_provenance": "human_unassisted"
+    },
+    {
+      "reviewer": "E06",
+      "blind_id": "B06",
+      "output_id": "O-S02-P02-M02-R01",
+      "scenario": "S02",
+      "style": "Altbier",
+      "prompt": "P02",
+      "repetition": "R01",
+      "ratings": {
+        "sme_fit": 4,
+        "production_readiness": 4,
+        "technical_plausibility": 5,
+        "style_fidelity": 4,
+        "pilotability": 5,
+        "briefing_quality": 5,
+        "correction_need": 4,
+        "overall_recommendation": 4
+      },
+      "time_code": "T2",
+      "llm_rework_code": "A3",
+      "rework_types": [
+        "N3",
+        "N4"
+      ],
+      "rework_types_status": "valid",
+      "qualitative_provenance": "human_unassisted"
+    },
+    {
+      "reviewer": "E06",
+      "blind_id": "B07",
+      "output_id": "O-S02-P02-M02-R02",
+      "scenario": "S02",
+      "style": "Altbier",
+      "prompt": "P02",
+      "repetition": "R02",
+      "ratings": {
+        "sme_fit": 3,
+        "production_readiness": 4,
+        "technical_plausibility": 5,
+        "style_fidelity": 5,
+        "pilotability": 5,
+        "briefing_quality": 5,
+        "correction_need": 4,
+        "overall_recommendation": 5
+      },
+      "time_code": "T1",
+      "llm_rework_code": "A3",
+      "rework_types": [
+        "N3",
+        "N5"
+      ],
+      "rework_types_status": "valid",
+      "qualitative_provenance": "human_unassisted"
+    },
+    {
+      "reviewer": "E06",
+      "blind_id": "B08",
+      "output_id": "O-S02-P01-M02-R01",
+      "scenario": "S02",
+      "style": "Altbier",
+      "prompt": "P01",
+      "repetition": "R01",
+      "ratings": {
+        "sme_fit": 3,
+        "production_readiness": 3,
+        "technical_plausibility": 4,
+        "style_fidelity": 3,
+        "pilotability": 5,
+        "briefing_quality": 5,
+        "correction_need": 4,
+        "overall_recommendation": 3
+      },
+      "time_code": "T2",
+      "llm_rework_code": "A3",
+      "rework_types": [
+        "N2",
+        "N3",
+        "N4"
+      ],
+      "rework_types_status": "valid",
+      "qualitative_provenance": "human_unassisted"
+    }
+  ]
+}

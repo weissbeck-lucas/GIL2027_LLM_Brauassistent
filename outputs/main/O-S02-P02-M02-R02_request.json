@@ -1,0 +1,12 @@
+{
+  "input": "Du bist ein Brautechnologie-Assistent fuer ein kleines Brau-KMU bzw. Getraenkestartup. Das Unternehmen moechte ein neues Bier durch einen externen Lohnbrauer produzieren lassen. Erstelle einen produktionsnahen Bierrezeptentwurf als strukturiertes technisches Briefing fuer den Produktionspartner.\n\nSzenario: S02\nBierstil: Altbier\nAusschlagmenge: 1.000 Liter\nZiel-Stammwuerze: 11,8 Grad Plato\nZiel-Alkoholgehalt: 5,0 % vol.\nZiel-Bittere: 33 IBU\nZiel-Farbe: 30-35 EBC\nZielcharakter: kupferfarben, sauber vergoren, ausgewogen malzig und bitter, mit mittlerem Koerper und trockenem Finish\n\nNutze in Deutschland uebliche Rohstoffe. Erfinde fehlende Anlagen-, Betriebs- oder Rohstoffdaten nicht als Tatsachen. Kennzeichne notwendige Annahmen und offene Punkte ausdruecklich.\n\nStrukturiere die Antwort in den folgenden Abschnitten:\n\n1. Produktprofil und Zielwerte\n2. Annahmen und Berechnungsgrundlagen\n3. Malzschuettung mit genauer Malzbezeichnung, angenommenem Farbwert soweit relevant, Mengen in kg und Anteilen in Prozent\n4. Wasserbedarf und Hinweise zur Wasseraufbereitung\n5. Maischplan mit Zeit- und Temperaturangaben\n6. Laeutern, Wuerzekochen und Kochdauer\n7. Hopfengaben mit Sorte bzw. Produkt, angenommenem Alpha-Saeuregehalt, Menge, Zeitpunkt und Zweck\n8. Hefe, Anstellmenge und Gaerfuehrung\n9. Reifung, Lagerung, Karbonisierung und vorgesehene Produktklarheit\n10. Erwartete Ziel- und Kontrollwerte einschliesslich Stammwuerze, Endextrakt, Vergaerungsgrad, Alkohol, Bittere und Farbe\n11. Hinweise fuer Skalierung und Abstimmung mit dem Produktionspartner\n12. Offene Punkte, Risiken und zwingender fachlicher Pruefbedarf\n13. Konsistenzpruefung: Summen, Einheiten, Rohstoffannahmen und erkennbare Zielkonflikte\n\nGib bei unsicheren oder anlagenabhaengigen Angaben einen plausiblen Arbeitswert als Annahme an und erlaeutere kurz, was der Produktionspartner bestaetigen oder neu berechnen muss. Stelle den Entwurf nicht als unmittelbar freigegebenes Braurezept dar.",
+  "max_output_tokens": 128000,
+  "model": "gpt-5.6-sol",
+  "reasoning": {
+    "effort": "max"
+  },
+  "store": false,
+  "text": {
+    "verbosity": "low"
+  }
+}

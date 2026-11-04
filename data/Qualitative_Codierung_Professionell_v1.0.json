@@ -1,0 +1,1039 @@
+{
+  "schema_version": "1.0",
+  "coding_version": "1.0",
+  "status": "final_after_human_countercheck",
+  "as_of": "2026-10-06",
+  "coding_guide": "Qualitativer_Codierleitfaden_v1.0.md",
+  "primary_reviewers": [
+    "E03",
+    "E06"
+  ],
+  "sensitivity_reviewers_not_included_here": [
+    "E02"
+  ],
+  "counting_rule": "Identische Aussagen einer Person zu mehreren Entwuerfen werden mit allen betroffenen Blind-IDs dokumentiert, bei thematischen Haeufigkeiten aber nur einmal als Nennung dieser Person gezaehlt.",
+  "records": [
+    {
+      "coding_id": "Q-E03-001",
+      "reviewer_alias": "E03",
+      "blind_output_ids": [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08"
+      ],
+      "source_field": "error_comment",
+      "paraphrase": "Bei der theoretischen Durchsicht wurde kein grober fachlicher Fehler erkannt.",
+      "main_code": "SO",
+      "secondary_codes": [],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": "In allen acht Feldern inhaltsgleich; keine acht unabhaengigen Nennungen. Allgemeine fachliche Gesamteinschaetzung ohne spezifischen technischen Teilbereich."
+    },
+    {
+      "coding_id": "Q-E03-002",
+      "reviewer_alias": "E03",
+      "blind_output_ids": [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08"
+      ],
+      "source_field": "error_comment",
+      "paraphrase": "Eine abschliessende Fehlerbeurteilung wird erst nach einem praktischen Probesud fuer moeglich gehalten.",
+      "main_code": "PS",
+      "secondary_codes": [
+        "PR"
+      ],
+      "function": "BEDINGUNG",
+      "provenance": "human_unassisted",
+      "memo": "In allen acht Feldern inhaltsgleich; als eine wiederkehrende Position von E03 zaehlen."
+    },
+    {
+      "coding_id": "Q-E03-003",
+      "reviewer_alias": "E03",
+      "blind_output_ids": [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08"
+      ],
+      "source_field": "missing_briefing_information",
+      "paraphrase": "Das Produktionsbriefing vermittelt insgesamt einen guten und nutzbaren Eindruck.",
+      "main_code": "BK",
+      "secondary_codes": [
+        "NU"
+      ],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": "In allen acht Feldern inhaltsgleich."
+    },
+    {
+      "coding_id": "Q-E03-004",
+      "reviewer_alias": "E03",
+      "blind_output_ids": [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08"
+      ],
+      "source_field": "missing_briefing_information",
+      "paraphrase": "Moegliche Informationsluecken koennten erst bei der praktischen Umsetzung sichtbar werden.",
+      "main_code": "BK",
+      "secondary_codes": [
+        "PS"
+      ],
+      "function": "BEDINGUNG",
+      "provenance": "human_unassisted",
+      "memo": "In allen acht Feldern inhaltsgleich."
+    },
+    {
+      "coding_id": "Q-E03-005",
+      "reviewer_alias": "E03",
+      "blind_output_ids": [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08"
+      ],
+      "source_field": "first_correction",
+      "paraphrase": "Der konkrete erste Korrekturschritt laesst sich ohne praktische Umsetzung nicht bestimmen.",
+      "main_code": "PS",
+      "secondary_codes": [
+        "PR"
+      ],
+      "function": "BEDINGUNG",
+      "provenance": "human_unassisted",
+      "memo": "In allen acht Feldern inhaltsgleich."
+    },
+    {
+      "coding_id": "Q-E03-006",
+      "reviewer_alias": "E03",
+      "blind_output_ids": [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Fuer einen Kleinsud werden die notwendigen Angaben als vorhanden angesehen.",
+      "main_code": "PS",
+      "secondary_codes": [
+        "BK"
+      ],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": "In allen acht Feldern inhaltsgleich; keine Aussage ueber eine konkrete Anlagenkonfiguration."
+    },
+    {
+      "coding_id": "Q-E03-007",
+      "reviewer_alias": "E03",
+      "blind_output_ids": [
+        "GLOBAL"
+      ],
+      "source_field": "time_savings",
+      "paraphrase": "Die Zusammenstellung und Austauschbarkeit von Zutaten wird als moeglicher Zeitgewinn gesehen.",
+      "main_code": "NU",
+      "secondary_codes": [
+        "RO"
+      ],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E03-008",
+      "reviewer_alias": "E03",
+      "blind_output_ids": [
+        "GLOBAL"
+      ],
+      "source_field": "time_savings",
+      "paraphrase": "LLM-Entwuerfe koennen die theoretische Rezeptvorbereitung unterstuetzen.",
+      "main_code": "NU",
+      "secondary_codes": [],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E03-009",
+      "reviewer_alias": "E03",
+      "blind_output_ids": [
+        "GLOBAL"
+      ],
+      "source_field": "time_savings",
+      "paraphrase": "Die tatsaechliche Tauglichkeit eines theoretischen Entwurfs bleibt von einer praktischen Umsetzung abhaengig.",
+      "main_code": "PS",
+      "secondary_codes": [
+        "NU"
+      ],
+      "function": "BEDINGUNG",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E03-010",
+      "reviewer_alias": "E03",
+      "blind_output_ids": [
+        "GLOBAL"
+      ],
+      "source_field": "unchecked_use_risks",
+      "paraphrase": "Bei ungepruefter Uebernahme besteht das Risiko eines sensorisch unbefriedigenden Bieres.",
+      "main_code": "RI",
+      "secondary_codes": [
+        "ST"
+      ],
+      "function": "RISIKO",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E03-011",
+      "reviewer_alias": "E03",
+      "blind_output_ids": [
+        "GLOBAL"
+      ],
+      "source_field": "unchecked_use_risks",
+      "paraphrase": "Fuer noch nicht erprobte Rezepte wird unabhaengig von ihrer menschlichen oder maschinellen Herkunft ein Testlauf fuer erforderlich gehalten.",
+      "main_code": "PS",
+      "secondary_codes": [
+        "RI"
+      ],
+      "function": "BEDINGUNG",
+      "provenance": "human_unassisted",
+      "memo": "Keine LLM-spezifische Exklusivursache."
+    },
+    {
+      "coding_id": "Q-E03-012",
+      "reviewer_alias": "E03",
+      "blind_output_ids": [
+        "GLOBAL"
+      ],
+      "source_field": "recurring_patterns",
+      "paraphrase": "Wiederkehrende Staerken oder Fehler werden ohne praktische Ueberpruefung nicht abschliessend beurteilt.",
+      "main_code": "PS",
+      "secondary_codes": [],
+      "function": "BEDINGUNG",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E03-013",
+      "reviewer_alias": "E03",
+      "blind_output_ids": [
+        "GLOBAL"
+      ],
+      "source_field": "rework_support",
+      "paraphrase": "Die Neuberechnung von Zutatenmengen bei einer Mengenaenderung wird als sinnvoll LLM-unterstuetzbar angesehen.",
+      "main_code": "NU",
+      "secondary_codes": [
+        "ZK"
+      ],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E03-014",
+      "reviewer_alias": "E03",
+      "blind_output_ids": [
+        "GLOBAL"
+      ],
+      "source_field": "rework_support",
+      "paraphrase": "Zeitangaben werden als Bereich eingeordnet, der Brauexpertise oder konkrete Betriebsdaten erfordert.",
+      "main_code": "PR",
+      "secondary_codes": [
+        "AN"
+      ],
+      "function": "BEDINGUNG",
+      "provenance": "human_unassisted",
+      "memo": "In der menschlichen Gegenpruefung korrigiert: Die mit Semikolon getrennte zweite Antwort bezieht sich auf den zweiten Teil der Doppelfrage zu zwingend erforderlicher Brauexpertise oder konkreten Betriebsdaten."
+    },
+    {
+      "coding_id": "Q-E06-001",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B01"
+      ],
+      "source_field": "error_comment",
+      "paraphrase": "Maischeplan und lange Kochdauer werden fuer moderne hochgeloeste Malze als nicht schluessig kombiniert beurteilt.",
+      "main_code": "PR",
+      "secondary_codes": [
+        "RO"
+      ],
+      "function": "PROBLEM",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-002",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B01"
+      ],
+      "source_field": "error_comment",
+      "paraphrase": "Die IBU-Berechnung fuer die Whirlpoolgabe beruecksichtigt die reale Kontakt- und Abkuehlzeit nicht ausreichend.",
+      "main_code": "ZK",
+      "secondary_codes": [
+        "PR"
+      ],
+      "function": "PROBLEM",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-003",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B01"
+      ],
+      "source_field": "error_comment",
+      "paraphrase": "Eine eindeutige Angabe zum Maische-pH wird vermisst.",
+      "main_code": "PR",
+      "secondary_codes": [
+        "AN"
+      ],
+      "function": "FEHLT",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-004",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B01"
+      ],
+      "source_field": "missing_briefing_information",
+      "paraphrase": "Abgesehen von den genannten Fachpunkten werden keine wesentlichen Briefingluecken gesehen.",
+      "main_code": "BK",
+      "secondary_codes": [],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-005",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B01"
+      ],
+      "source_field": "first_correction",
+      "paraphrase": "Die Bitterstoffberechnung der Whirlpoolgabe soll zuerst korrigiert werden.",
+      "main_code": "ZK",
+      "secondary_codes": [
+        "PR"
+      ],
+      "function": "KORREKTUR",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-006",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B01"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Die Hefewahl sollte konkreter auf die erforderliche hohe Vergaerung abgestimmt werden.",
+      "main_code": "RO",
+      "secondary_codes": [
+        "ZK"
+      ],
+      "function": "KORREKTUR",
+      "provenance": "human_unassisted",
+      "memo": "Eine konkrete neutrale Lagerhefe wurde als moegliche Alternative genannt."
+    },
+    {
+      "coding_id": "Q-E06-007",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B01"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Wasserprofil, Maischeplan und Zutaten werden insgesamt als solide und stilgerecht beurteilt.",
+      "main_code": "ST",
+      "secondary_codes": [
+        "RO",
+        "PR",
+        "AN"
+      ],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-008",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B02"
+      ],
+      "source_field": "error_comment",
+      "paraphrase": "Die Notwendigkeit der langen Kochdauer wird in Frage gestellt.",
+      "main_code": "PR",
+      "secondary_codes": [],
+      "function": "PROBLEM",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-009",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B02"
+      ],
+      "source_field": "missing_briefing_information",
+      "paraphrase": "Es werden keine fehlenden Briefingangaben genannt.",
+      "main_code": "BK",
+      "secondary_codes": [],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-010",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B02"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Der Entwurf wird als sehr detaillierte und gute Grundlage fuer ein Pils beurteilt.",
+      "main_code": "ST",
+      "secondary_codes": [
+        "BK",
+        "NU"
+      ],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-011",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B02"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Vor der Umsetzung muss der Entwurf an die konkrete Brauereianlage angepasst werden.",
+      "main_code": "AN",
+      "secondary_codes": [
+        "PS"
+      ],
+      "function": "BEDINGUNG",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-012",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B03"
+      ],
+      "source_field": "error_comment",
+      "paraphrase": "Die geforderte Abkuehlung vor dem Whirlpool ist nicht auf jeder Anlage technisch moeglich.",
+      "main_code": "AN",
+      "secondary_codes": [
+        "PR"
+      ],
+      "function": "PROBLEM",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-013",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B03"
+      ],
+      "source_field": "error_comment",
+      "paraphrase": "Der Karamellmalzanteil wird als zu hoch und nicht stiltypisch beurteilt.",
+      "main_code": "RO",
+      "secondary_codes": [
+        "ST"
+      ],
+      "function": "PROBLEM",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-014",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B03"
+      ],
+      "source_field": "first_correction",
+      "paraphrase": "Der technische Weg zur Abkuehlung auf Whirlpooltemperatur muss geklaert werden.",
+      "main_code": "AN",
+      "secondary_codes": [
+        "PR"
+      ],
+      "function": "KORREKTUR",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-015",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B03"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Der Entwurf wird insgesamt als detailliert und solide beurteilt.",
+      "main_code": "BK",
+      "secondary_codes": [
+        "NU"
+      ],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-016",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B03"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Eine Aenderung der Malzschuettung ohne Karamellmalz wird bevorzugt, jedoch als subjektive Stilentscheidung gekennzeichnet.",
+      "main_code": "RO",
+      "secondary_codes": [
+        "ST"
+      ],
+      "function": "KORREKTUR",
+      "provenance": "human_unassisted",
+      "memo": "Subjektivitaet der Empfehlung bleibt sichtbar."
+    },
+    {
+      "coding_id": "Q-E06-017",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B04"
+      ],
+      "source_field": "error_comment",
+      "paraphrase": "Die Maltoserast wird als relativ warm und damit als moegliches Risiko fuer die angestrebte Vergaerung beurteilt.",
+      "main_code": "PR",
+      "secondary_codes": [
+        "ZK"
+      ],
+      "function": "PROBLEM",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-018",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B04"
+      ],
+      "source_field": "first_correction",
+      "paraphrase": "Das Maischeprofil soll als erster Schritt angepasst werden.",
+      "main_code": "PR",
+      "secondary_codes": [],
+      "function": "KORREKTUR",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-019",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B04"
+      ],
+      "source_field": "first_correction",
+      "paraphrase": "Die geringe spaete Hopfengabe koennte zu einem sensorisch wenig profilierten Bier fuehren.",
+      "main_code": "RO",
+      "secondary_codes": [
+        "ST"
+      ],
+      "function": "PROBLEM",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-020",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B04"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Der Entwurf wird als sehr detailliert und durchdacht bewertet.",
+      "main_code": "BK",
+      "secondary_codes": [
+        "NU"
+      ],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-021",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B04"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Weniger Karamellmalz und eine staerkere Hopfung werden als moegliche stilistische Verbesserung vorgeschlagen.",
+      "main_code": "RO",
+      "secondary_codes": [
+        "ST"
+      ],
+      "function": "KORREKTUR",
+      "provenance": "human_unassisted",
+      "memo": "Als subjektive Praeferenz gekennzeichnet."
+    },
+    {
+      "coding_id": "Q-E06-022",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B05"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Die staerkere Aromahopfung wird gegenueber einem aehnlichen Entwurf als sensorischer Vorteil gesehen.",
+      "main_code": "ST",
+      "secondary_codes": [
+        "RO"
+      ],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-023",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B05"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Das Karamellmalz soll durch Vienna- oder Pale-Ale-Malz ersetzt werden.",
+      "main_code": "RO",
+      "secondary_codes": [
+        "ST"
+      ],
+      "function": "KORREKTUR",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-024",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B05"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Der Entwurf wird insgesamt als detailliert und solide beurteilt.",
+      "main_code": "BK",
+      "secondary_codes": [
+        "NU"
+      ],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-025",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B06"
+      ],
+      "source_field": "error_comment",
+      "paraphrase": "Die Kombination aus Einmaischverfahren und gesonderter Maltoserast wird als widerspruechlich beschrieben.",
+      "main_code": "PR",
+      "secondary_codes": [
+        "BK"
+      ],
+      "function": "PROBLEM",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-026",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B06"
+      ],
+      "source_field": "error_comment",
+      "paraphrase": "Der Karamellmalzanteil wird als zu hoch und voraussichtlich zu suess beurteilt.",
+      "main_code": "RO",
+      "secondary_codes": [
+        "ST"
+      ],
+      "function": "PROBLEM",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-027",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B07"
+      ],
+      "source_field": "error_comment",
+      "paraphrase": "Mittlerer Koerper und hoher Vergaerungsgrad werden als nicht vollstaendig konsistent beurteilt.",
+      "main_code": "ZK",
+      "secondary_codes": [
+        "ST"
+      ],
+      "function": "PROBLEM",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-028",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B07"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Mehr Aromahopfen und weniger Karamellmalz werden empfohlen.",
+      "main_code": "RO",
+      "secondary_codes": [
+        "ST"
+      ],
+      "function": "KORREKTUR",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-029",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B07"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Die vorgesehene Zugabe von Carafa Spezial III beim Laeutern ist unklar formuliert.",
+      "main_code": "BK",
+      "secondary_codes": [
+        "PR",
+        "RO"
+      ],
+      "function": "FEHLT",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-030",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B07"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Der Entwurf wird insgesamt als besonders guter Altbierentwurf beurteilt.",
+      "main_code": "ST",
+      "secondary_codes": [
+        "NU"
+      ],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-031",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B07"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Eine etwas hoehere Stammwuerze wird vorgeschlagen, um Alkohol, Vergaerungsgrad und Koerper besser zusammenzufuehren.",
+      "main_code": "ZK",
+      "secondary_codes": [
+        "ST"
+      ],
+      "function": "KORREKTUR",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-032",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B07"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Temperaturanstieg und Diacetylrast werden als fachlich positive Prozessdetails hervorgehoben.",
+      "main_code": "PR",
+      "secondary_codes": [],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-033",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B08"
+      ],
+      "source_field": "error_comment",
+      "paraphrase": "Fuer die Maltoserast wird eine niedrigere Temperatur empfohlen.",
+      "main_code": "PR",
+      "secondary_codes": [
+        "ZK"
+      ],
+      "function": "KORREKTUR",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-034",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B08"
+      ],
+      "source_field": "error_comment",
+      "paraphrase": "Der Karamellmalzanteil wird als deutlich zu hoch und nicht stiltypisch beurteilt.",
+      "main_code": "RO",
+      "secondary_codes": [
+        "ST"
+      ],
+      "function": "PROBLEM",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-035",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B08"
+      ],
+      "source_field": "missing_briefing_information",
+      "paraphrase": "Der hohe Anteil an Karamellmalz und der zugleich angestrebte schlanke Koerper werden als Widerspruch gesehen.",
+      "main_code": "ZK",
+      "secondary_codes": [
+        "ST",
+        "RO"
+      ],
+      "function": "PROBLEM",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-036",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B08"
+      ],
+      "source_field": "first_correction",
+      "paraphrase": "Die Malzschuettung muss als erster Schritt ueberarbeitet werden.",
+      "main_code": "RO",
+      "secondary_codes": [],
+      "function": "KORREKTUR",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-037",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B08"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Der Entwurf wird wegen der erwarteten Wirkung des hohen Karamellmalzanteils als schwaechster Altbierentwurf eingeordnet.",
+      "main_code": "ST",
+      "secondary_codes": [
+        "RO"
+      ],
+      "function": "PROBLEM",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-038",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "GLOBAL"
+      ],
+      "source_field": "time_savings",
+      "paraphrase": "Schnelle Berechnungen und theoretische Fragen waehrend des Brautags werden als sinnvolle LLM-Unterstuetzung gesehen.",
+      "main_code": "NU",
+      "secondary_codes": [
+        "ZK"
+      ],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-039",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "GLOBAL"
+      ],
+      "source_field": "unchecked_use_risks",
+      "paraphrase": "Ein Entwurf kann Anforderungen enthalten, die auf der konkreten Brauanlage nicht umsetzbar sind.",
+      "main_code": "RI",
+      "secondary_codes": [
+        "AN"
+      ],
+      "function": "RISIKO",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-040",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "GLOBAL"
+      ],
+      "source_field": "unchecked_use_risks",
+      "paraphrase": "Bei ungepruefter Uebernahme kann die Stiltypizitaet verfehlt werden.",
+      "main_code": "RI",
+      "secondary_codes": [
+        "ST"
+      ],
+      "function": "RISIKO",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-041",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "GLOBAL"
+      ],
+      "source_field": "recurring_patterns",
+      "paraphrase": "Die Pilsentwuerfe werden insgesamt stiltypischer beurteilt als die Altbierentwuerfe.",
+      "main_code": "ST",
+      "secondary_codes": [],
+      "function": "NEUTRAL",
+      "provenance": "human_unassisted",
+      "memo": "Personenbezogener Vergleich, nicht als allgemeiner Stileffekt zu interpretieren."
+    },
+    {
+      "coding_id": "Q-E06-042",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "GLOBAL"
+      ],
+      "source_field": "recurring_patterns",
+      "paraphrase": "Die Entwuerfe enthalten meist die grundlegenden Informationen, lassen aber einzelne Umsetzungsschritte wie die pH-Anpassung offen.",
+      "main_code": "BK",
+      "secondary_codes": [
+        "PR",
+        "AN"
+      ],
+      "function": "FEHLT",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-043",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "GLOBAL"
+      ],
+      "source_field": "rework_support",
+      "paraphrase": "Theoretische Teilaufgaben werden grundsaetzlich als LLM-unterstuetzbar angesehen.",
+      "main_code": "NU",
+      "secondary_codes": [],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-044",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "GLOBAL"
+      ],
+      "source_field": "rework_support",
+      "paraphrase": "Sensorische Geschmacksentscheidungen werden als Grenze einer rein maschinellen Unterstuetzung gesehen.",
+      "main_code": "RI",
+      "secondary_codes": [
+        "ST"
+      ],
+      "function": "RISIKO",
+      "provenance": "human_unassisted",
+      "memo": ""
+    },
+    {
+      "coding_id": "Q-E06-045",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "GLOBAL"
+      ],
+      "source_field": "rework_support",
+      "paraphrase": "Ohne Kenntnis der konkreten Anlagengrenzen kann ein LLM die betriebliche Umsetzbarkeit nicht verlaesslich beurteilen.",
+      "main_code": "RI",
+      "secondary_codes": [
+        "AN",
+        "PR"
+      ],
+      "function": "RISIKO",
+      "provenance": "human_unassisted",
+      "memo": "Als Beispiel wurde die technische Erreichbarkeit einer abgesenkten Whirlpooltemperatur genannt."
+    },
+    {
+      "coding_id": "Q-E06-046",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "B02"
+      ],
+      "source_field": "pilot_batch_adjustments",
+      "paraphrase": "Die konkrete Maische-pH-Angabe wird als fachlich positives Detail hervorgehoben.",
+      "main_code": "PR",
+      "secondary_codes": [
+        "AN"
+      ],
+      "function": "STAERKE",
+      "provenance": "human_unassisted",
+      "memo": "Bei der Originalgegenpruefung als eigenstaendige Sinneinheit ergaenzt."
+    },
+    {
+      "coding_id": "Q-E06-047",
+      "reviewer_alias": "E06",
+      "blind_output_ids": [
+        "GLOBAL"
+      ],
+      "source_field": "time_savings",
+      "paraphrase": "Die bewertende Person nutzt KI nach eigener Angabe nicht fuer die Rezeptentwicklung.",
+      "main_code": "NU",
+      "secondary_codes": [],
+      "function": "NEUTRAL",
+      "provenance": "human_unassisted",
+      "memo": "Kontextangabe zur Einordnung der genannten Nutzungsfelder; kein Wirksamkeitsbefund."
+    }
+  ],
+  "quality_assurance": {
+    "source_audit": {
+      "scope": "all_61_records",
+      "result": "passed",
+      "memo": "Qualitative_Originalgegenpruefung_2026-10-01.md"
+    },
+    "human_countercheck": {
+      "reviewer_role": "project_lead",
+      "original_fields_reviewed": true,
+      "regular_selected_records": 14,
+      "regular_records_confirmed_without_change": 14,
+      "additional_adjacent_records_reviewed": 1,
+      "additional_records_changed": 1,
+      "changed_coding_ids": [
+        "Q-E03-014"
+      ],
+      "memo": "Qualitative_Gegenpruefung_Erstautor_2026-10-06.md"
+    },
+    "independent_human_double_coding": false,
+    "agreement_coefficient_calculated": false
+  }
+}
